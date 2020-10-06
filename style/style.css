@@ -2,6 +2,10 @@ body{
     padding:0 !important;
     margin:0 !important;
   }
+  .row{
+      padding: 0 !important;
+      margin: 0 !important;
+  }
 header{
     border: 1px solid;
     height: 550px;
@@ -155,6 +159,8 @@ text-align: center;
     margin: auto;
     box-shadow: 0px 5px 7px 5px rgba(0, 0, 0, 0.03);
     width: 45vw;
+    text-align: center !important;
+    justify-content: center !important;
 }
 .navbtn1{
     background-color: transparent;
@@ -168,6 +174,7 @@ img{
 }
 .imgx{
     padding: 0 !important;
+    height: 350px;
 }
 .fixed{
     position: fixed;
@@ -191,6 +198,9 @@ img:hover{
 }
 .cont{
     margin-bottom: 5rem;
+}
+.aboutcont{
+    border-radius: 0 10px 10px 0;
 }
 .prof{
     color: white;
@@ -388,7 +398,7 @@ section .line{
     background-color: #000;
     justify-content: center !important;
     height: 55px;
-    width: 2px;
+    width: 1px;
     display: inline-block;
     margin: 10px 0px 20px;
     
